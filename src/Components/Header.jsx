@@ -1,7 +1,10 @@
+import Insideheader from "./insideheader"
+
 const Header = () => {
   return (
     <div className="test">
-      hello im happy
+      <Insideheader />
+     
     </div>
   )
 }
